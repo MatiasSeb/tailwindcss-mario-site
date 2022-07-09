@@ -1,0 +1,30 @@
+module.exports = {
+    content: [
+        './public/index.html'
+    ],
+    theme: {
+        extend: {
+            backgroundImage: theme => ({
+                'wave-pattern': 'url(../img/wave-white.png)',
+                'wave-pattern-dots': 'url(../img/pattern-white-dots.png)',
+                'pattern-characters-red': 'url(../img/pattern-characters-red.png)',
+                'character-mario': 'url(../img/character-mario.png)',
+                'wave-pink': 'url(../img/wave-pink.png)',
+                'yellow-dots': 'url(../img/pattern-yellow-dots.png)'
+            }),
+            screens: {
+                'xsm': '320px',
+                'sm': '640px',
+                'md': '768px',
+                'lg': '1024px',
+                'xl': '1280px',
+                'xl2': '1360px',
+                '2xl': '1536px',
+            }
+        }
+    },
+    variants: {
+        extend: {}
+    },
+    plugins: [],
+}
